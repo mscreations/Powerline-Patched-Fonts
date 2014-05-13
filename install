@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [ -d ~/.fonts ]; then
-	mv ~/.fonts ~/.fonts.old
-fi
-
-ln -s $PWD ~/.fonts
-fc-cache -vf ~/.fonts
